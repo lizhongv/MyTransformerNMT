@@ -1,3 +1,4 @@
+>>>>>>> HEAD
 ## MyTransformer
 
 这是一个利用transformer进行机器翻译的简单例子。
@@ -46,11 +47,17 @@
 
 
 ## 训练
-`python3 run.py`
-``
+```
+python3 run.py
+nohup python ./run.py >> ./log/train.log 2>&1 &
+```
 
 ## 预测 (前提：训练过)
-`python3 run.py --type evaluate`
+
+```
+python3 run.py --type evaluate
+nohup python3 run.py --type evaluate >> ./log/eval.log 2>&1 &
+```
 =======
-# MyTrasformer
+## MyTrasformer
 >>>>>>> origin/main
