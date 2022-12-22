@@ -1,0 +1,57 @@
+nohup: ignoring input
+/data2/lizhong/anaconda3/envs/py3.6/lib/python3.6/site-packages/torch/nn/_reduction.py:44: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+src_vocab 6309
+tgt_vocab 3439
+>>>>>>> start train
+Epoch 0 Batch: 0 Loss: 8.146242 Tokens per Sec: 2.207442s
+Epoch 0 Batch: 50 Loss: 7.321720 Tokens per Sec: 5.930924s
+Epoch 0 Batch: 100 Loss: 6.608626 Tokens per Sec: 6.302186s
+Epoch 0 Batch: 150 Loss: 5.720063 Tokens per Sec: 12.683382s
+Epoch 0 Batch: 200 Loss: 5.207592 Tokens per Sec: 13.037638s
+Epoch 0 Batch: 250 Loss: 5.463716 Tokens per Sec: 13.461253s
+Epoch 0 Batch: 300 Loss: 4.748770 Tokens per Sec: 11.902062s
+>>>>> Evaluate
+Epoch 0 Batch: 0 Loss: 5.017016 Tokens per Sec: 9.661852s
+<<<<< Evaluate loss: 4.591701
+Epoch 1 Batch: 0 Loss: 4.537576 Tokens per Sec: 7.289440s
+Epoch 1 Batch: 50 Loss: 4.453840 Tokens per Sec: 12.306623s
+Epoch 1 Batch: 100 Loss: 3.994709 Tokens per Sec: 12.780773s
+Epoch 1 Batch: 150 Loss: 3.723274 Tokens per Sec: 12.059188s
+Epoch 1 Batch: 200 Loss: 3.951483 Tokens per Sec: 11.396973s
+Epoch 1 Batch: 250 Loss: 4.243876 Tokens per Sec: 12.533312s
+Epoch 1 Batch: 300 Loss: 3.588087 Tokens per Sec: 11.525543s
+>>>>> Evaluate
+Epoch 1 Batch: 0 Loss: 3.724706 Tokens per Sec: 11.401911s
+<<<<< Evaluate loss: 3.201190
+Epoch 2 Batch: 0 Loss: 3.679973 Tokens per Sec: 8.795025s
+Epoch 2 Batch: 50 Loss: 3.323367 Tokens per Sec: 12.553725s
+Epoch 2 Batch: 100 Loss: 2.872119 Tokens per Sec: 13.972921s
+Epoch 2 Batch: 150 Loss: 2.558084 Tokens per Sec: 12.028193s
+Epoch 2 Batch: 200 Loss: 3.046158 Tokens per Sec: 11.716783s
+Epoch 2 Batch: 250 Loss: 3.380711 Tokens per Sec: 12.097718s
+Epoch 2 Batch: 300 Loss: 2.705283 Tokens per Sec: 12.672029s
+>>>>> Evaluate
+Epoch 2 Batch: 0 Loss: 2.737931 Tokens per Sec: 12.345531s
+<<<<< Evaluate loss: 2.303998
+Epoch 3 Batch: 0 Loss: 2.865640 Tokens per Sec: 8.729582s
+Epoch 3 Batch: 50 Loss: 2.506197 Tokens per Sec: 12.654018s
+Epoch 3 Batch: 100 Loss: 2.194900 Tokens per Sec: 14.297579s
+Epoch 3 Batch: 150 Loss: 1.940613 Tokens per Sec: 12.560200s
+Epoch 3 Batch: 200 Loss: 2.406119 Tokens per Sec: 12.563473s
+Epoch 3 Batch: 250 Loss: 2.755243 Tokens per Sec: 12.626221s
+Epoch 3 Batch: 300 Loss: 2.104351 Tokens per Sec: 11.884512s
+>>>>> Evaluate
+Epoch 3 Batch: 0 Loss: 1.973913 Tokens per Sec: 13.401064s
+<<<<< Evaluate loss: 1.662583
+Epoch 4 Batch: 0 Loss: 2.399374 Tokens per Sec: 9.188032s
+Epoch 4 Batch: 50 Loss: 1.977227 Tokens per Sec: 12.306604s
+Epoch 4 Batch: 100 Loss: 1.773330 Tokens per Sec: 12.951199s
+Epoch 4 Batch: 150 Loss: 1.543237 Tokens per Sec: 12.321928s
+Epoch 4 Batch: 200 Loss: 2.011822 Tokens per Sec: 11.343046s
+Epoch 4 Batch: 250 Loss: 2.359583 Tokens per Sec: 12.672890s
+Epoch 4 Batch: 300 Loss: 1.749177 Tokens per Sec: 12.495585s
+>>>>> Evaluate
+Epoch 4 Batch: 0 Loss: 1.489846 Tokens per Sec: 11.957270s
+<<<<< Evaluate loss: 1.327048
+<<<<<<< finished train

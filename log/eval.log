@@ -1,0 +1,25 @@
+nohup: ignoring input
+/data2/lizhong/anaconda3/lib/python3.9/site-packages/torch/cuda/__init__.py:83: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 10010). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at  ../c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+src_vocab 6309
+tgt_vocab 3439
+Traceback (most recent call last):
+  File "/data2/lizhong/transformers/transformer-simple/run.py", line 96, in <module>
+    main()
+  File "/data2/lizhong/transformers/transformer-simple/run.py", line 84, in main
+    model.load_state_dict(torch.load(args.save_file))
+  File "/data2/lizhong/anaconda3/lib/python3.9/site-packages/torch/serialization.py", line 712, in load
+    return _load(opened_zipfile, map_location, pickle_module, **pickle_load_args)
+  File "/data2/lizhong/anaconda3/lib/python3.9/site-packages/torch/serialization.py", line 1049, in _load
+    result = unpickler.load()
+  File "/data2/lizhong/anaconda3/lib/python3.9/site-packages/torch/serialization.py", line 1019, in persistent_load
+    load_tensor(dtype, nbytes, key, _maybe_decode_ascii(location))
+  File "/data2/lizhong/anaconda3/lib/python3.9/site-packages/torch/serialization.py", line 1001, in load_tensor
+    wrap_storage=restore_location(storage, location),
+  File "/data2/lizhong/anaconda3/lib/python3.9/site-packages/torch/serialization.py", line 175, in default_restore_location
+    result = fn(storage, location)
+  File "/data2/lizhong/anaconda3/lib/python3.9/site-packages/torch/serialization.py", line 152, in _cuda_deserialize
+    device = validate_cuda_device(location)
+  File "/data2/lizhong/anaconda3/lib/python3.9/site-packages/torch/serialization.py", line 136, in validate_cuda_device
+    raise RuntimeError('Attempting to deserialize object on a CUDA '
+RuntimeError: Attempting to deserialize object on a CUDA device but torch.cuda.is_available() is False. If you are running on a CPU-only machine, please use torch.load with map_location=torch.device('cpu') to map your storages to the CPU.
