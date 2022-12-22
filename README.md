@@ -1,5 +1,6 @@
 ## MyTransformer
 
+这是一个利用transformer进行机器翻译的简单例子。
 
 ## 论文来源
 
@@ -7,13 +8,22 @@
 
 ## 代码参考
 
-[哈弗 nlp](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
+[harvardnlp](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
+[]()
 
 ## 项目结构
 
 - data `源数据目录`
-- log  `日志存放目录 （每次预测产生一个 log-timestamp.txt）`
+    - dev.txt `测试数据集`
+    - train.txt `训练数据集` 
+    - vocab_en `英文词汇表`
+    - vocab_zh `中文词汇表`
+- log  `日志存放目录` 
+    - log-timestamp.txt `每次预测产生一个此类文件`
+    - train.log `训练记录`
+    - eval.log `测试记录`
 - save `模型存放目录`
+    - model.pt `训练好模型` 
 - model `模型目录`
     - attention.py
     - embedding.py
@@ -37,6 +47,7 @@
 
 ## 训练
 `python3 run.py`
+``
 
 ## 预测 (前提：训练过)
 `python3 run.py --type evaluate`
