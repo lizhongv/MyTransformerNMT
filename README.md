@@ -1,6 +1,6 @@
 >>>>>>> HEAD
 ## MyTransformer
-
+======
 这是一个利用transformer进行机器翻译的简单例子。
 
 ## 论文来源
