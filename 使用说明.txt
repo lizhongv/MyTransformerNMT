@@ -1,4 +1,0 @@
-nohup python ./run.py >> ./log/train.log 2>&1 &
-
-nohup python3 run.py --type evaluate >> ./log/eval.log 2>&1 &
-
