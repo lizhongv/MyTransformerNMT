@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## 论文来源
 
 [Attention is all you need](https://arxiv.org/abs/1706.03762)
@@ -37,3 +38,6 @@
 
 ## 预测 (前提：训练过)
 `python3 run.py --type evaluate`
+=======
+# MyTrasformer
+>>>>>>> origin/main
