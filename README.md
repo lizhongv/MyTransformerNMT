@@ -1,6 +1,5 @@
 >>>>>>> HEAD
 ## MyTransformer
-=======
 
 这是一个利用transformer进行机器翻译的简单例子。
 
@@ -59,6 +58,5 @@ nohup python ./run.py >> ./log/train.log 2>&1 &
 python3 run.py --type evaluate
 nohup python3 run.py --type evaluate >> ./log/eval.log 2>&1 &
 ```
-=======
 ## MyTrasformer
 >>>>>>> origin/main
