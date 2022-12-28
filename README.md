@@ -10,7 +10,8 @@
 ## 代码参考
 
 [harvardnlp](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
-[]()
+[](https://zhuanlan.zhihu.com/p/347061440)
+[](https://github.com/hemingkx/ChineseNMT)
 
 ## 项目结构
 
