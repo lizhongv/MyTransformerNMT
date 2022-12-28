@@ -67,10 +67,10 @@ def main():
     model = make_model(
         args.src_vocab,
         args.tgt_vocab,
-        args.layers,
+        args.n_layers,
         args.d_model,
         args.d_ff,
-        args.h_num,
+        args.n_heads,
         args.dropout)
 
     if args.type == 'train':
