@@ -1,7 +1,9 @@
 >>>>>>> HEAD
-## MyTransformer
+## MyTransformerNMT
 
-这是一个利用transformer进行机器翻译的简单例子。
+This is a `Transformer` based neural machine translation（NMT）model.
+
+## Data
 
 ## 论文来源
 
