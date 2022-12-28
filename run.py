@@ -1,6 +1,7 @@
 # module
 import copy
 import os
+import warnings
 
 import torch
 import torch.nn as nn
@@ -96,4 +97,7 @@ def main():
 
 
 if __name__ == "__main__":
+    os.environ['CUDA_VISIBLE_DEVICES'] = '2, 3'  # DataParallel 方式
+    warnings.filterwarnings('ignore')  # 忽略警告
+    
     main()
