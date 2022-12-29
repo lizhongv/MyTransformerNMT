@@ -5,6 +5,7 @@ import torch
 
 
 def clones(module, N):
+    """克隆后各模型参数不共享""""
     return nn.ModuleList([copy.deepcopy(module) for _ in range(N)])
 
 
