@@ -7,9 +7,9 @@ from parser import args
 class LayerNorm(nn.Module):
     def __init__(self, features, eps=1e-6):
         super(LayerNorm, self).__init__()
-        self.a_2 = nn.Parameter(torch.ones(features))
-        self.b_2 = nn.Parameter(torch.zeros(features))
-        self.eps = eps
+        self.a_2 = nn.Parameter(torch.ones(features))  # 全1
+        self.b_2 = nn.Parameter(torch.zeros(features))  # 全0
+        self.eps = eps  # 平滑项
 
     def forward(self, x):
         mean = x.mean(-1, keepdim=True)
