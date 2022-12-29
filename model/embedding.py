@@ -17,8 +17,7 @@ class Embeddings(nn.Module):
         self.d_model = d_model
 
     def forward(self, x):
-        # 乘法是扩大数值，减少位置编码影响
-        return self.lut(x) * math.sqrt(self.d_model)
+        return self.lut(x) * math.sqrt(self.d_model)  # 乘法是扩大数值，减少位置编码影响
 
 
 class PositionalEncoding(nn.Module):
